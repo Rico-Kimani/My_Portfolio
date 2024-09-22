@@ -1,0 +1,78 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-background">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <img src="./PF-Images/EK-logo.jpeg" alt="Profile Photo of EK-logo">
+            <h1>Hi, my name is Erick</h1>
+            <p>Web Developer | Designer | Tech Enthusiast</p>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>~ About Me ~</h2>
+            <img src="./PF-Images/Myphoto.jpeg" alt="Erick's Profile" class="profile-photo">
+            <p>Hello there! I'm a Front-end Developer and aspiring App Developer. I am a curious and self driven
+                 individual with a passion for learning  and solving modern day problems. I am constantly exploring
+                  new ideas, areas of knowledge and I enjoy finding practical solutions through creativity and
+                   logical thinking.   In this portfolio, I show the various skills that I am endowed with, 
+                    along-side some of the projects that I have been able to see through, however minimal. 
+                    I also intend to show-case the basic understanding of the various HTML 
+                   structures that I can use along with the styling cascading Sheet Style(CSS)
+                    as I look to expand my knowledge and skill to
+                    include Java-Script(Js) as I build on its numerous properties in Web-Development.</p>
+        </section>
+        <h2>My Projects</h2>
+        <section id="projects-section">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>A brief description of what the project is about and 
+                        the technologies used in it.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>A brief description of what the project is about and 
+                        the technologies used in it.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>A brief description of what the project is about and 
+                        the technologies used in it.</p>
+                    <a href="#">View Project</a>
+                </div>
+        </section>
+        
+        <section id="contact">
+            <h2>* Be Sure To Reach Out *</h2>
+            <button class="btn btn-default td-btn outline white">Send me a message!</button>
+            <form action="/submit-form" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+                <button type="submit">submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
